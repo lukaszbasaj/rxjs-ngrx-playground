@@ -42,6 +42,9 @@
     "rxjs-ngrx-playground-e2e": {
       "tags": [],
       "implicitDependencies": ["rxjs-ngrx-playground"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }

@@ -18,7 +18,8 @@
       "@rxjs-ngrx-playground/api-interfaces": [
         "libs/api-interfaces/src/index.ts"
       ],
-      "@rxjs-ngrx-playground/products": ["libs/products/src/index.ts"]
+      "@rxjs-ngrx-playground/products": ["libs/products/src/index.ts"],
+      "@rxjs-ngrx-playground/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
