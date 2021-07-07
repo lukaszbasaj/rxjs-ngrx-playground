@@ -9,9 +9,9 @@ import { Product } from '@prisma/client';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
-  
+  public products$: Observable<Product[]>
 
-  constructor(public productService: ProductsService, public products$: Observable<Product[]>) { }
+  constructor(public productService: ProductsService) { }
 
   ngOnInit(): void {
     this.products$ = this.productService.getProducts();
